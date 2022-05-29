@@ -332,9 +332,26 @@ body {
 /**********************************/
 
 footer {
+    height: 5rem;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 6.5rem;
     font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
@@ -342,7 +359,7 @@ footer {
 /**********/
 
 .div__header {
-    height: 2rem;
+    height: 4.2rem;
     background-color: black;
     margin-bottom: 2rem;
 }
